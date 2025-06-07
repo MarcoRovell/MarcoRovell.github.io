@@ -1,0 +1,14 @@
+# Ignore Jekyll build output and cache
+_site/
+.jekyll-cache/
+
+# Ignore Ruby dependencies (optional, but recommended if using Actions)
+Gemfile.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temp files
+*.log
+tmp/
