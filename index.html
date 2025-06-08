@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My GitHub Page
+title: GitHub Page
 ---
 
 <!DOCTYPE html>
@@ -8,7 +8,6 @@ title: My GitHub Page
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -18,10 +17,8 @@ title: My GitHub Page
     
     <main>
         <p>This is my personal GitHub Pages site. More content coming soon!</p>
+        <a href="{{ site.baseurl }}/portfolio" class="btn portfolio-btn">View Portfolio</a>
     </main>
 
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} - Built with GitHub Pages</p>
-    </footer>
 </body>
 </html>

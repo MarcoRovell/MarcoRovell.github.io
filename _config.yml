@@ -1,8 +1,8 @@
-title: My GitHub Page
-description: A personal website hosted on GitHub Pages
+title: Marco Rovell
 baseurl: "" # the subpath of the site
 url: "https://marcorovell.github.io" # the base hostname & protocol for the site
 
+permalink: pretty
 # Build settings
 markdown: kramdown
 theme: minima
